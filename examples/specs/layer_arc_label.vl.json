@@ -13,7 +13,8 @@
   },
   "encoding": {
     "theta": {"field": "value", "type": "quantitative", "stack": true},
-    "color": {"field": "category", "type": "nominal", "legend": null}
+    "color": {"field": "category", "type": "nominal", "legend": null},
+    "order": {"field": "category"}
   },
   "layer": [{
     "mark": {"type": "arc", "outerRadius": 80}
